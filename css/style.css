@@ -1,3 +1,25 @@
-h2 {
+.content h2 {
   text-align: center;
+}
+
+.bb-custom-wrapper nav span, .menu-button {
+  background: #1abc9c;
+}
+
+.menu-panel {
+  background: #1abc9c;
+}
+
+.menu-toc li a:hover, .menu-toc li.menu-toc-current a {
+  background: #1abc9c;
+}
+
+.menu-toc li a {
+  background: #1abc9c;
+  border-bottom: 0px solid white;
+}
+
+.menu-toc li a:hover {
+  background: #16a085;
+  border-bottom: 1px solid white;
 }

@@ -71,15 +71,15 @@ a:hover {
 
 .js .menu-panel {
 	position: absolute;
-	left: -340px;
+	left: -240px;
 }
 
-@media only screen and (max-width: 500px) {
+/*@media only screen and (max-width: 500px) {
     .js .menu-panel {
     position: absolute;
     left: -240px;
     }
-}
+}*/
 
 .menu-panel h3 {
 	font-size: 1.8em;

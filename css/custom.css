@@ -21,6 +21,12 @@ body {
 	height: 100%;
 }
 
+.cola-images {
+  width: 20%;
+  height: 20%;
+  border-radius: 15px;
+}
+
 .js body {
 	overflow: hidden;
 }

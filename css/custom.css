@@ -29,8 +29,8 @@ body {
 
 @media screen and (max-width: 300px) {
   .video-youtube {
-    height: 80%;
-    width: 80%;
+    height: 60%;
+    width: 60%;
   }
 }
 

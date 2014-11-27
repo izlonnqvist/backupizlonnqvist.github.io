@@ -31,6 +31,10 @@ body {
   float: left;
 }
 
+.introtext {
+  float: left;
+}
+
 @media screen and (max-width: 300px) {
   .video-youtube {
     height: 60%;

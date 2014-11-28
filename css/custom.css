@@ -103,6 +103,7 @@ a:hover {
 .colaburk {
     width: 200px;
     height: 250px;
+    float: left;
 }
 
 .menu-panel h3 {

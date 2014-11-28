@@ -74,6 +74,7 @@ a:hover {
 	left: -340px;
 }
 
+/* Använd den här sen för bilderna */
 @media only screen and (max-width: 500px) {
     .js .menu-panel {
     position: absolute;

@@ -35,13 +35,6 @@ body {
   float: left;
 }
 
-@media screen and (max-width: 300px) {
-  .video-youtube {
-    height: 60%;
-    width: 60%;
-  }
-}
-
 .js body {
 	overflow: hidden;
 }

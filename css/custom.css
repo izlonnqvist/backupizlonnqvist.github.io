@@ -85,25 +85,7 @@ a:hover {
 
 .js .menu-panel {
 	position: absolute;
-	left: -240px;
-}
-
-#zeroText {
-    
-}
-
-#lightText {
-    
-}
-
-#lifeText {
-    
-}
-
-.colaburk {
-    width: 180px;
-    height: 210px;
-    float: left;
+	left: -340px;
 }
 
 .menu-panel h3 {

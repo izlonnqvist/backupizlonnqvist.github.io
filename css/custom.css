@@ -88,13 +88,18 @@ a:hover {
 	left: -340px;
 }
 
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 480px) {
+@media 
+only screen and (-webkit-min-device-pixel-ratio: 2) and (min-device-width: 1025px),
+only screen and (   min--moz-device-pixel-ratio: 2) and (min-device-width: 1025px),
+only screen and (   -o-min-device-pixel-ratio: 2/1) and (min-device-width: 1025px),
+only screen and (        min-device-pixel-ratio: 2) and (min-device-width: 1025px),
+only screen and (           min-resolution: 192dpi) and (min-device-width: 1025px),
+only screen and (            min-resolution: 2dppx) and (min-device-width: 1025px) {
 .js .menu-panel {
 	position: absolute;
 	left: -240px;
 }
+    
 }
 
 .menu-panel h3 {

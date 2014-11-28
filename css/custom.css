@@ -95,12 +95,17 @@ a:hover {
 	left: -240px;
 }
 
-/*@media only screen and (max-width: 500px) {
-    .js .menu-panel {
-    position: absolute;
-    left: -240px;
-    }
-}*/
+#zeroText {
+    
+}
+
+#lightText {
+    
+}
+
+#lifeText {
+    
+}
 
 .menu-panel h3 {
 	font-size: 1.8em;

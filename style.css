@@ -42,7 +42,7 @@ ul#banner li {
     -webkit-transition: width 2s;
 }
 
-ul#banner li a:hover { 
+ul#banner a:hover { 
     background-color: #e67e22;
     width: 50px;
     height: 45px;

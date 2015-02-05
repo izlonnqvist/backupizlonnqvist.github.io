@@ -31,6 +31,7 @@ ul#banner {
     margin: 0 30px; 
     padding: 0; 
     background-color: #8D8D8D;
+    width: 100%;
 } 
 
 ul#banner li { 

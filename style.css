@@ -38,3 +38,11 @@ ul#banner {
 ul#banner li { 
     display: inline;
 }
+
+h1 {
+    font-family: 'times new roman';
+}
+
+.block-portfolio {
+    padding-top: 20px;
+}

@@ -1,5 +1,6 @@
 body { 
-    width: 8000px; 
+    width: 8000px;
+    background-color: #8D8D8D;
 }
 
 .panel { 
@@ -8,6 +9,7 @@ body {
     padding-left: 30px; 
     padding-right: 1040px;
     margin-top: 45px;
+    background-color: #787878;
 }
 
 ul#banner { 

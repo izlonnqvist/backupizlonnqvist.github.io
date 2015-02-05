@@ -19,9 +19,10 @@ a:visited {
 }
 
 .panel { 
-    width: 1370px; 
+    width: 1400px; 
     float: left; 
     padding-left: 30px; 
+    padding-right: 30px;
     margin-top: 45px;
 }
 

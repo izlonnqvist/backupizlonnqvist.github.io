@@ -1,5 +1,5 @@
 body { 
-    width: 8000px;
+    width: 10000px;
     background-color: #8D8D8D;
 }
 
@@ -14,7 +14,7 @@ a:visited {
 }
 
 .panel { 
-    width: 1024px; 
+    width: 1200px; 
     float: left; 
     padding-left: 30px; 
     padding-right: 1040px;

@@ -28,8 +28,8 @@ a:visited {
 ul#banner { 
     position: fixed; 
     line-height: 45px; 
-    margin: 0 30px; 
-    padding: 0; 
+    margin: 0px; 
+    padding: 0 30px; 
     background-color: #8D8D8D;
     width: 100%;
 } 

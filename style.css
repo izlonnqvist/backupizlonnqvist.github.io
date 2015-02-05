@@ -3,6 +3,16 @@ body {
     background-color: #8D8D8D;
 }
 
+a {
+    font-size: 1.2em;
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #e67e22;
+}
+
 .panel { 
     width: 930px; 
     float: left; 

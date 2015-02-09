@@ -1,104 +1,75 @@
 <!DOCTYPE html>
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">    
     
-<!-- Latest compiled and minified CSS -->
+    <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
 
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <!-- CSS override -->
+<link rel="stylesheet" href="style.css">
     
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-<link href="style.css" rel="stylesheet">
 </head>
-
-<body>
-<!-- Meny -->
-<ul id="banner"> 
-    <li> <a href="#home">Startsida </a>• </li>
-    <li> <a href="#portfolio"> Portfolio </a>• </li>
-    <li> <a href="#cv"> CV </a>• </li>
-    <li> <a href="#contact">Kontakt</a> </li> 
-</ul>
-    
-<!-- Content -->
-    <div id="home" class="panel"> 
+<body>  
+<div class="container">
+<!-- header -->
     <div class="row">
-            <div class="col-md-2">
-            </div>
-            <div class="col-md-8">
-            <img src="img/header.png" />
-            </div>
-        </div>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc bibendum nec mi id consectetur. Nulla quis iaculis felis. Duis vulputate eros ut arcu molestie consectetur. Pellentesque iaculis turpis quis ex accumsan euismod. Phasellus a blandit purus. Duis vitae posuere ipsum. Sed viverra, nibh id hendrerit viverra, nisl diam egestas quam, et convallis leo mauris eu libero.</p>
-
-<p>Ut gravida ante nisi, nec suscipit odio placerat ut. Nulla varius viverra nunc vel ornare. Proin imperdiet risus vitae tortor efficitur ullamcorper. Mauris ultrices tortor nec fermentum bibendum. Ut a mi a elit auctor fringilla et et massa. Suspendisse at ipsum vitae nunc auctor efficitur. Vivamus pretium ullamcorper metus eu mollis. Suspendisse ultricies leo non gravida consectetur. Suspendisse fermentum tristique nulla, finibus semper est commodo eget. Sed nec justo augue. Cras a malesuada nisl. Suspendisse sed elementum mi, ultricies ullamcorper erat. Phasellus id suscipit neque.</p>
+        <div class="col-md-8 col-md-offset-2 header"><img src="img/header.png"></div>
     </div>
-    <div id="portfolio" class="panel"> <h1 class="text-center">Keke 2</h1> 
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8 block-portfolio">
-                <div class="row">
-                <div class="col-xs-6 col-sm-3">
-                    <a href="#" class="thumbnail">
-                        <img src="img/polarbear.png" alt="...">
-                        <div class="caption">Polar bear</div>
-                    </a>
-                </div>
-                    
-                <div class="col-xs-6 col-sm-3">
-                    <a href="#" class="thumbnail">
-                        <img src="img/polarbear.png" alt="...">
-                        <div class="caption">Polar bear</div>
-                    </a>
-                </div>
-                    
-                <div class="col-xs-6 col-sm-3">
-                    <a href="#" class="thumbnail">
-                        <img src="img/polarbear.png" alt="...">
-                        <div class="caption">Polar bear</div>
-                    </a>
-                </div>
-                    
-                <div class="col-xs-6 col-sm-3">
-                    <a href="#" class="thumbnail">
-                        <img src="img/polarbear.png" alt="...">
-                        <div class="caption">Polar bear</div>
-                    </a>
-                </div>
-            </div>
+<!-- menu -->
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2 menu">
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Hem <span class="sr-only">(current)</span></a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#">Kontakt</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Om mig <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">CV</a></li>
+            <li><a href="#">Om mig</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="navbar-form navbar-left" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Sök">
         </div>
+        <button type="submit" class="btn btn-default">Skicka</button>
+      </form>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav></div>
+    </div>
+<!-- content -->
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2 content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non euismod libero, a tristique lacus. Morbi blandit pharetra porta. Aenean dignissim, mauris vel ultricies porttitor, nunc nulla tincidunt mauris, vel suscipit sem urna at velit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed ornare consectetur laoreet. Maecenas ullamcorper eleifend ex et dignissim. Suspendisse in arcu odio. Proin vel posuere ligula. Phasellus gravida vel felis sollicitudin vehicula. Donec eleifend quam orci. Aenean efficitur ex nisi, non auctor risus egestas non. Aliquam eu ex bibendum, porttitor metus vel, porta ante. Morbi interdum accumsan nisi, dictum hendrerit eros pulvinar egestas. Pellentesque condimentum elit felis, vel egestas nulla elementum et. Cras tincidunt est quis suscipit congue.</p>
+
+<p>Integer nec urna at sem luctus sollicitudin. Suspendisse potenti. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Quisque venenatis hendrerit metus. In consequat erat a erat auctor rutrum vel a magna. Aliquam consequat ligula ut lobortis semper. In hac habitasse platea dictumst. Mauris pellentesque purus in tellus tempus hendrerit. Mauris hendrerit posuere turpis a euismod. Quisque at sollicitudin augue, in molestie erat. Ut neque felis, bibendum ornare molestie non, efficitur at dui.</p>
+        </div>
+    </div>   
+</div>
     
-    </div>
-            </div>
-        </div>
-    <div id="cv" class="panel">
-    <div class="container">
-        <div class="row">
-        <div class="col-md-8">
-                <h1 class="text-center">CV</h1>
-            <p class="text-center">
-                <dl class="dl-horizontal">
-                    <dt>Namn</dt>
-                    <dd>Izabella Lönnqvist</dd>
-                    <dt>Ålder</dt>
-                    <dd>20</dd>
-                    <br/>
-                    <dt>Utbildning</dt>
-                    <dd>Izabella Lönnqvist</dd>
-                    <dt>Erfarenhet</dt>
-                    <dd>20</dd>
-                    <dt>Kunskap</dt>
-                    <dd>20</dd>
-                </dl>
-            </p>
-            </div>
-        </div>
-    </div>
-    </div>
-    <div id="contact" class="panel"> <h1 class="text-center">Keke 4</h1> </div>
-
-<script src="javascript.js"></script>
+    <!-- jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    
+    <!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 </body>
 </html>
